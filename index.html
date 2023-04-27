@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Movies Website</title>
+    <!--link para css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link para Swiper CSS-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!--Fav Icon-->
+    <link rel="shortcut icon" href="img/metrogas-logo.svg" type="image/x-icon">
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<!-- Header -->
+<header>
+    <!-- Nav -->
+    <div class="nav container">
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+            Mantenimiento-<span>Redes</span>
+            <img src="img/metrogas-logo.svg" alt="" class="user-img">
+        </a>
+        <!-- Search Box-->
+        <!-- <div class="search-box">
+            <input type="search" name="" id="search-input" placeholder="Search Movie">
+            <i class='bx bx-search'></i>
+        </div> -->
+        <!-- User-->
+        <!-- <a href="#" class="user">
+            <img src="img/metrogas-logo.svg" alt="" class="user-img">
+        </a> -->
+        <!-- NavBar -->
+        <div class="navbar">
+            <a href="#home" class="nav-link nav-active">
+                <i class='bx bx-home'></i>
+                <span class="nav-link-title">Home</span>
+            </a>
+            <a href="#popular" class="nav-link">
+                <i class='bx bxs-hot'></i>
+                <span class="nav-link-title">Informacion <br>Relevante</span>
+            </a>
+            <a href="#movies" class="nav-link">
+                <i class='bx bx-compass' ></i>
+                <span class="nav-link-title">Videos <br>Operativos</span>
+            </a>
+            <!-- <a href="play-page.html" class="nav-link">
+                <i class='bx bx-tv' ></i>
+                <span class="nav-link-title">Movies</span>
+            </a>
+            <a href="#home" class="nav-link">
+                <i class='bx bx-heart' ></i>
+                <span class="nav-link-title">Favourite</span>
+            </a>
+        </div> -->
+    </div>
+</header>
+<!-- Home -->
+<section class="home container" id="home">
+    <!-- Home Image-->
+    <img src="imagen-proced/OVP.jpg" alt="" class="home-img">
+    <!-- Home Text-->
+    <div class="home-text">
+        <h1 class="home-title">Bienvenidos <br> Metrogas</h1>
+        <!-- <p>Releasing 10 April</p> -->
+        <a href="play-page2.html" class="watch-btn">
+            <i class='bx bx-right-arrow'></i>
+            <span>Que significa</span>
+        </a>
+    </div>
+</section>
+<!-- Home End-->
+<!-- Popular section -->
+<section class="popular container" id="popular">
+    <!-- Heading -->
+    <div class="heading">
+        <h2 class="heading-title">Informacion Relevantes</h2>
+        <!--Swiper Buttons-->
+        <div class="swiper-btn">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+    </div>
+    <!-- Content-->
+    <div class="popular-content swiper">
+        <div class="swiper-wrapper">
+            <!-- Movies Box 1 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="imagen-proced/Metrogas-1.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Sabados Operativos</h2>
+                        <span class="movie-type">Drive</span>
+                        <a href="https://metrogasar-my.sharepoint.com/personal/aledesma_metrogas_com_ar/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Faledesma%5Fmetrogas%5Fcom%5Far%2FDocuments%2FSABADOS%202023&view=0" class="watch-btn play-btn">
+                            <i class='bx bx-right-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movies Box 2 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="imagen-proced/Caba-2.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Distribucion de Barrios CABA</h2>
+                        <span class="movie-type">Sharepoint</span>
+                        <a href="https://metrogasar-my.sharepoint.com/:x:/r/personal/aledesma_metrogas_com_ar/_layouts/15/Doc.aspx?sourcedoc=%7BCD7D4093-3B4D-4BAA-AACF-2A196F3A4E4B%7D&file=Distibuci%C3%B3n%20de%20Barrios%20de%20CABA.xlsx&action=default&mobileredirect=true" class="watch-btn play-btn">
+                            <i class='bx bx-right-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movies Box 3 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="imagen-proced/Calden-3.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Acceso a Calden</h2>
+                        <span class="movie-type">Calden web</span>
+                        <a href="https://webapps.metrogas.com.ar/caldenweb/login.faces" class="watch-btn play-btn">
+                            <i class='bx bx-right-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movies Box 4 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="imagen-proced/Salesforce-4.png" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Field Services</h2>
+                        <span class="movie-type">Trabajos</span>
+                        <a href="https://metrogasargentina.lightning.force.com/lightning/page/home" class="watch-btn play-btn">
+                            <i class='bx bx-right-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movies Box 5 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="imagen-proced/By pass-5.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">App para Cargar monitoreo de escapes <br> Acciones para evitar corte</h2>
+                        <span class="movie-type">Action</span>
+                        <a href="https://apps.powerapps.com/play/e/default-b59aebb6-a2c1-48b5-ac1e-820addc47c10/a/2abd7a67-c836-46ff-8ebd-ea988253c50d?tenantId=b59aebb6-a2c1-48b5-ac1e-820addc47c10" class="watch-btn play-btn">
+                            <i class='bx bx-right-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movies Box 6 -->
+            <!-- <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/popular-movie-6.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Hawkeye</h2>
+                        <span class="movie-type">Action</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class='bx bx-right-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+            <!-- Movies Box 7 -->
+            <!-- <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/popular-movie-7.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Agents of S.H.I.E.L.D.</h2>
+                        <span class="movie-type">Action</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class='bx bx-right-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+            <!-- Movies Box 8 -->
+            <!-- <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/popular-movie-8.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">The Flash</h2>
+                        <span class="movie-type">Action/Sci-Fi</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class='bx bx-right-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+          </div>
+         
+    </div>
+</section>
+<!-- Popular Section End-->
+<!-- Movies Section Start-->
+<section class="movies container" id="movies">
+    <!-- Heading -->
+    <div class="heading">
+        <h2 class="heading-title">Operaciones en Via Publica</h2>
+    </div>
+    <!-- Movies Content-->
+    <div class="movies-content">
+        <!-- Movies Box 1-->
+        <div class="movie-box">
+            <img src="imagen-proced/Encapsulado.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+                <h2 class="movie-title">Encapsulado</h2>
+                <span class="movie-type">acciones</span>
+                <a href="play-page.html" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow'></i>
+                </a>
+            </div>
+        </div>
+        <!-- Movies Box 2-->
+        <div class="movie-box">
+            <img src="imagen-proced/sello-junta.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+                <h2 class="movie-title">Sello de junta</h2>
+                <span class="movie-type">Operaciones</span>
+                <a href="play-page3.html" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow'></i>
+                </a>
+            </div>
+        </div>
+        <!-- Movies Box 3-->
+        <div class="movie-box">
+            <!-- <img src="img/movie-3.jpg" alt="" class="movie-box-img"> -->
+            <div class="box-text">
+                <h2 class="movie-title">+++++++++++++</h2>
+                <span class="movie-type">...........</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow'></i>
+                </a>
+            </div>
+        </div>
+        <!-- Movies Box 4-->
+        <div class="movie-box">
+            <!-- <img src="img/movie-4.jpg" alt="" class="movie-box-img"> -->
+            <div class="box-text">
+                <h2 class="movie-title">++++++++++++</h2>
+                <span class="movie-type">...............</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow'></i>
+                </a>
+            </div>
+        </div>
+        <!-- Movies Box 5-->
+        <div class="movie-box">
+            <!-- <img src="img/movie-5.jpg" alt="" class="movie-box-img"> -->
+            <div class="box-text">
+                <h2 class="movie-title">++++++++++++++</h2>
+                <span class="movie-type">---------------</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow'></i>
+                </a>
+            </div>
+        </div>
+        <!-- Movies Box 6-->
+        <div class="movie-box">
+            <!-- <img src="img/movie-6.jpg" alt="" class="movie-box-img"> -->
+            <div class="box-text">
+                <h2 class="movie-title">+++++++</h2>
+                <span class="movie-type">--------</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow'></i>
+                </a>
+            </div>
+        </div>
+        <!-- Movies Box 7-->
+        <div class="movie-box">
+            <!-- <img src="img/movie-7.jpg" alt="" class="movie-box-img"> -->
+            <div class="box-text">
+                <h2 class="movie-title">++++++++++</h2>
+                <span class="movie-type">.........</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow'></i>
+                </a>
+            </div>
+        </div>
+        <!-- Movies Box 8-->
+        <div class="movie-box">
+            <!-- <img src="img/movie-8.jpg" alt="" class="movie-box-img"> -->
+            <div class="box-text">
+                <h2 class="movie-title">+++++++++++</h2>
+                <span class="movie-type">-------</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow'></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Movies Section End-->
+<!-- Next Page -->
+<!-- <div class="next-page">
+    <a href="#home" class="next-btn">Next Page</a>
+</div> -->
+<!-- Copyright-->
+<div class="copyright">
+    <p>&#169; EdgarAñez All Right Reserved</p>
+</div>
+<!-- Link Swiper JS-->
+   <script src="js/swiper-bundle.min.js"></script>
+    <!--Link para JS-->
+   <script src="js/main.js"></script>  
+</body>
+</html>
