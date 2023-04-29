@@ -144,6 +144,11 @@ display: flex;
 .nav-link-title{
     font-size: 0.7rem;
 }
+iframe {
+    border-radius: 10%;
+    
+
+}
 /* Home */
 .home {
     position: relative;
